@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" fill="none">
+  <defs>
+    <linearGradient id="hbgFade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#04060b" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#04060b" stop-opacity="0.9"/>
+    </linearGradient>
+    <radialGradient id="hbgGlowC" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#22e8d4" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#22e8d4" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="hbgGlowG" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#cba463" stop-opacity="0.28"/>
+      <stop offset="100%" stop-color="#cba463" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1600" height="900" fill="#04060b"/>
+  <circle cx="1180" cy="220" r="420" fill="url(#hbgGlowC)"/>
+  <circle cx="260" cy="700" r="360" fill="url(#hbgGlowG)"/>
+
+  <!-- faint network lines -->
+  <g stroke="#22e8d4" stroke-opacity="0.16" stroke-width="1">
+    <path d="M60 620 L340 460 L620 560 L900 380 L1180 500 L1460 300"/>
+    <path d="M120 780 L420 640 L700 720 L980 540 L1260 660 L1540 480"/>
+    <path d="M0 300 L260 220 L520 300 L780 160 L1040 260 L1300 120 L1560 220"/>
+  </g>
+  <g fill="#7bfff0" fill-opacity="0.7">
+    <circle cx="340" cy="460" r="3.5"/>
+    <circle cx="900" cy="380" r="3.5"/>
+    <circle cx="1180" cy="500" r="3.5"/>
+    <circle cx="420" cy="640" r="3.5"/>
+    <circle cx="980" cy="540" r="3.5"/>
+    <circle cx="1260" cy="660" r="3.5"/>
+    <circle cx="520" cy="300" r="3.5"/>
+    <circle cx="1040" cy="260" r="3.5"/>
+    <circle cx="1300" cy="120" r="3.5"/>
+  </g>
+
+  <!-- candlestick silhouettes -->
+  <g stroke-linecap="round">
+    <g stroke="#22e8d4" stroke-opacity="0.35">
+      <line x1="120" y1="500" x2="120" y2="640"/>
+      <line x1="180" y1="470" x2="180" y2="600"/>
+      <line x1="240" y1="520" x2="240" y2="700"/>
+      <line x1="300" y1="440" x2="300" y2="560"/>
+      <line x1="360" y1="480" x2="360" y2="660"/>
+    </g>
+    <g stroke="#cba463" stroke-opacity="0.32">
+      <line x1="1240" y1="560" x2="1240" y2="720"/>
+      <line x1="1300" y1="500" x2="1300" y2="640"/>
+      <line x1="1360" y1="540" x2="1360" y2="760"/>
+      <line x1="1420" y1="460" x2="1420" y2="620"/>
+      <line x1="1480" y1="520" x2="1480" y2="700"/>
+    </g>
+    <g stroke-width="6" stroke-opacity="0.5">
+      <line x1="120" y1="540" x2="120" y2="600" stroke="#22e8d4"/>
+      <line x1="180" y1="500" x2="180" y2="560" stroke="#e8836b"/>
+      <line x1="240" y1="580" x2="240" y2="640" stroke="#22e8d4"/>
+      <line x1="300" y1="470" x2="300" y2="520" stroke="#22e8d4"/>
+      <line x1="360" y1="540" x2="360" y2="610" stroke="#e8836b"/>
+      <line x1="1240" y1="600" x2="1240" y2="660" stroke="#cba463"/>
+      <line x1="1300" y1="540" x2="1300" y2="600" stroke="#22e8d4"/>
+      <line x1="1360" y1="600" x2="1360" y2="700" stroke="#e8836b"/>
+      <line x1="1420" y1="500" x2="1420" y2="560" stroke="#cba463"/>
+      <line x1="1480" y1="560" x2="1480" y2="640" stroke="#22e8d4"/>
+    </g>
+  </g>
+
+  <rect width="1600" height="900" fill="url(#hbgFade)"/>
+</svg>
