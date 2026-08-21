@@ -1,4 +1,4 @@
- 
+
 :root {
     --bg-void: #04060b;
     --bg-navy: #070c17;
@@ -2267,4 +2267,3 @@ footer {
 .tab-panel:nth-child(5) .tab-visual {
     background-image: linear-gradient(135deg, rgba(34,232,212,.16), transparent 45%), url("https://images.unsplash.com/photo-1573166364518-8d9e8c090a0e?auto=format&fit=crop&w=1000&q=85");
 }
- 
